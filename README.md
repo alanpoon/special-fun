@@ -43,6 +43,10 @@ additional terms or conditions.
 * [special][2]: Special functions implemented in pure Rust. Has less functions
   implemented and only supports `f64`.
 
+For WASM:
+WASM=1 cargo build --target=wasm32-unknown-unknown
+On the web, you will need to import https://github.com/nearform/node-cephes wasm without their index.js and cephes_wrapper.js
+
 
 [1]: http://www.moshier.net/#Cephes
 [2]: https://github.com/stainless-steel/special
